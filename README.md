@@ -1,25 +1,24 @@
 # Nadia’s Garden Restaurant
 
-This is a Node.js and Express website that accepts and lists restaurant reservations. Improve it with the lynda.com course, "Node.js: Testing and Code Quality" by Jon Peck.
+Esse é um site construido em Node.js e Express que aceita uma lista de reservas para o restaurante. Estou melhorando a estrutura do site com testes e qualidade de código com o curso do Linkedin "Node.js: Testing and Code Quality" feito pelo Jon Peck.
 
-The backend contains intentional mistakes, like weak validation on email addresses. Inconsistencies in coding style are also intentional.
+O site começa com erros intencionais no backend como não validação de endereços de email. Inconsistências no estilo o código também são intencionais.
 
-## Getting Started
+## Começando o Projeto
 
 ```bash
 npm install
 npm start
 ```
+O servidor roda na porta 3000.
 
-The server runs on port 3000.
+O site tem 3 rotas:
 
-There are three routes:
+- http://localhost:3000/ - Página inicial
+- http://localhost:3000/reservations - Manda as requisições de reserva
+- http://localhost:3000/admin - Veja todas as requisições de reserva; Autorização básica login/senha `admin/admin`
 
-- http://localhost:3000/ - homepage
-- http://localhost:3000/reservations - submit a reservation booking request
-- http://localhost:3000/admin - view all booking requests; basic auth login/password `admin`
-
-The server persists using a SQLite3 database named `database.sqlite` in the site root.
+O Banco de dados no site é feito usando SQLite3 com o arquivo `database.sqlite`
 
 ## Development
 
