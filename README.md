@@ -34,10 +34,32 @@ npm run debug
 
 ### Qualidade do código:
 
+  Qualidade de pode ser dividida em:
+
   #### Funcionalidade:
 
   - O código faz o que deveria ser feito?
-     > - Armazenar email: Não armazenar representa falha no armazenamento de dados, armazenar um não email representa falha na validação dos dados.
+     > Armazenar email: Não armazenar representa falha no armazenamento de dados, armazenar um não email representa falha na validação dos dados.
+
+  ### Sem Deficiências
+
+  Não podem apresentar falhas ou erros, isso pode ser resumido de duas formas:
+
+  - #### Utilidade
+    - Flexível e reutilizável 
+        > Ter a possibilidade de reutilizar, e com mais de uma forma possível. 
+        > Ex.  Função que soma um número X com 1 (return x +1). É reutilizável porém inflexível.
+        > Ex. Função que soma um número X a qualquer número N (return x + n). É reutilizável e muito mais flexivel. Muito mais útil.
+  - #### Possibilidade de Manutenção
+    
+    Existem três perguntas para definir se um código é `Sustentável` (Maintainable):
+    - Você consegue dar manutenção no código?
+    - Outra pessoa consegue dar manutenção no código sem sua ajuda?
+    - Outras pessoas conseguem ler e entender o estilo e intenções do código?
+    
+    > Caso a resposta para as três perguntas acima seja sim, ***Parabéns, você já está melhor que quase todos os desenvolvedores do mundo HEHE.
+
+  Note que pode começar com um código ruim e ir melhorando ao longo do tempo. Sempre tente voltar em códigos antigos e fazer mudanças pequenas para não acarretar em problemas no software.
 
 
 
