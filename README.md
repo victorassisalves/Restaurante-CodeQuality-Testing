@@ -34,9 +34,10 @@ npm run debug
 
 ### Qualidade do código:
 
-  #### Funcionalidade
-    - O código faz o que deveria ser feito
-        > - Armazenar email: Não armazenar representa falha no armazenamento de dados, armazenar um não email representa falha na validação dos dados.
+  #### Funcionalidade:
+
+  - O código faz o que deveria ser feito?
+     > - Armazenar email: Não armazenar representa falha no armazenamento de dados, armazenar um não email representa falha na validação dos dados.
 
 
 
